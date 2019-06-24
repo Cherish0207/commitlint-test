@@ -1,0 +1,29 @@
+{
+  "name": "commitlint-test",
+  "version": "1.0.0",
+  "description": "gfdsgfdg",
+  "main": "commitlint.config.js",
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherish0207/commitlint-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cherish0207/commitlint-test/issues"
+  },
+  "homepage": "https://github.com/Cherish0207/commitlint-test#readme",
+  "devDependencies": {
+    "husky": "^2.4.1"
+  }
+}
